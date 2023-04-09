@@ -1,0 +1,87 @@
+.detail {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.detail .info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.detail .info .image {
+	margin-right: 2rem;
+	max-width: 400px;
+}
+
+.detail .info .image img {
+	width: 100%;
+	height: auto;
+}
+
+.detail .info .image div {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.detail .info .details {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.detail .info .details .text {
+	margin-top: 2rem;
+}
+
+.detail .info .details .text p {
+	text-align: justify;
+	font-size: 1.2rem;
+}
+
+.detail .info .details .info-box {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1rem;
+}
+
+.detail .info .details .info-box .info-item {
+	display: flex;
+	flex-direction: row;
+	margin-right: 1rem;
+}
+
+.detail .info .details .info-box .info-item .value {
+	margin-left: 0.5rem;
+	font-weight: bold;
+}
+
+.detail .button {
+	margin-top: 2rem;
+	background-color: #2d2d2d;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.detail .button:hover {
+	background-color: #4d4d4d;
+}
+
+.info-box{
+	display: block;
+	width: 100%;
+
+}
+.info-item{
+	margin: 10px 0;
+	flex-grow: 1;
+}
